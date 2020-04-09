@@ -27,7 +27,6 @@ public class Main {
         printArray(array);
     }
 
-
     private static void three() {
         int[] arr = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         for (int i = 0; i < arr.length; i++) {
@@ -36,7 +35,6 @@ public class Main {
 
         printArray(arr);
     }
-
     private static void four() {
 
         int[] arr4 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1, 3, 2, 1};
@@ -51,6 +49,7 @@ public class Main {
             }
         System.out.println(min + " " + max);
     }
+    
     private static void five() {
 
         int size = 10;
